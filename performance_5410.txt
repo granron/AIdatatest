@@ -1,0 +1,36 @@
+Interviewer: Thank you for taking the time to talk with me today. Can you tell me a little bit about PA-5410 performance details?
+
+Interviewee: Of course! PA-5410 has App-ID firewall throughput of 43.5 Gbps, however with threat prevention the throughput drops to 26.7 Gbps
+
+Interviewer: That's great to hear. How about if IPSec VPN?
+
+Interviewee: If IPSEC VPN is enabled, drops to 21 Gbps
+
+Interviewer: What about connections per second?
+
+Interviewee: I would say 270000 connections per second (cps), with a maximum number of sessions(regardless of IPv4 or IPv6) of 3600000	
+
+Interviewer: That's impressive! What about policies?
+
+Interviewee: Maximum number of rules supported is 30000, for NAT rules is 6000, for decryption rules 3500, for App override rules 3500, for Tunnel content inspection rules 2500, for SD-WAN rules 800, for Policy based forwarding rules is 2000, for Captive portal rules 8000, and finally for  DoS protection rules 2000
+
+
+Interviewer: That's understandable. What about security zones?
+
+Interviewee: The maximum number of security zones in a PA-5410 is 4000
+ 
+
+Interviewer: Can you describe the objects in a PA-5410?
+
+Interviewee:  The maximum Address objects	is 80000	, Address groups	is 40000, Members per address group	is 2500, Service objects	is 8000, Service groups	is 4000,Members per service group is	2500, FQDN address objects is	6144, Max DAG IP addresses	is 500000	and finally, Tags per IP address	is 64.
+	
+	
+Interviewer: That's great. Can you describe the performance parameters of SSL Decryption?
+
+Interviewee: SUre. The PA-5410 supports a maximum of 600 SSL inbound certificates, 16000 SSL certificate cache for forward proxy, a Maximum concurrent decryption sessions 360000
+
+Interviewer: That's great. Is SSL Port Mirror, SSL Decryption Broker and HSM Supported supported?
+Yes, all those features are supported for PA-5410
+
+		
+
