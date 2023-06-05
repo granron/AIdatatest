@@ -27,7 +27,7 @@ Interviewee:  The maximum Address objects	is 80000	, Address groups	is 40000, Me
 	
 Interviewer: That's great. Can you describe the performance parameters of SSL Decryption?
 
-Interviewee: SUre. The PA-5410 supports a maximum of 600 SSL inbound certificates, 16000 SSL certificate cache for forward proxy, a Maximum concurrent decryption sessions 360000
+Interviewee: SUre. The PA-5410 supports a maximum of 600 SSL inbound certificates, 16000 SSL certificate cache for forward proxy, a Maximum concurrent decryption sessions is 360000
 
 Interviewer: That's great. Is SSL Port Mirror, SSL Decryption Broker and HSM Supported supported?
 Yes, all those features are supported for PA-5410
