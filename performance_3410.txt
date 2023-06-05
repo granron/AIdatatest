@@ -1,0 +1,36 @@
+Interviewer: Thank you for taking the time to talk with me today. Can you tell me a little bit about PA-3410 performance details?
+
+Interviewee: Of course! PA-3410 has App-ID firewall throughput of 11 Gbps, however with threat prevention the throughput drops to 5.6 Gbps	
+
+Interviewer: That's great to hear. How about if IPSec VPN?
+
+Interviewee: If IPSEC VPN is enabled, drops to 6.8 Gbps	
+
+Interviewer: What about connections per second?
+
+Interviewee: I would say 145000 connections per second (cps), with a maximum number of sessions(regardless of IPv4 or IPv6) of 1400000	
+
+Interviewer: That's impressive! What about policies?
+
+Interviewee: Maximum number of rules supported is 10000, for NAT rules is 3000, for decryption rules 750, for App override rules 750, for Tunnel content inspection rules 400, for SD-WAN rules 750, for Policy based forwarding rules is 750, for Captive portal rules 750, and finally for  DoS protection rules 750
+
+
+Interviewer: That's understandable. What about security zones?
+
+Interviewee: The maximum number of security zones in a PA-3410 is 200
+ 
+
+Interviewer: Can you describe the objects in a PA-3410?
+
+Interviewee:  The maximum Address objects	is 30000	, Address groups	is 15000, Members per address group	is 2500, Service objects	is 3000, Service groups	is 1500, Members per service group is	1500, FQDN address objects is	2048, Max DAG IP addresses	is 150000	and finally, Tags per IP address is 64.
+	
+	
+Interviewer: That's great. Can you describe the performance parameters of SSL Decryption?
+
+Interviewee: SUre. The PA-3410 supports a maximum of 125 SSL inbound certificates, 10240 SSL certificate cache for forward proxy, a Maximum concurrent decryption sessions of 140000
+
+Interviewer: That's great. Is SSL Port Mirror, SSL Decryption Broker and HSM Supported supported?
+Yes, all those features are supported for PA-3410
+
+		
+
